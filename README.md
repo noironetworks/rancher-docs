@@ -114,7 +114,11 @@
 
 ## Cisco ACI and Rancher Integration Guides
 
+- [RKE2 cluster with ACI-CNI 6.0.4.1 Installation Guide](docs/rke2-6041.md)
+
+- [Cisco ACI and Rancher Integration with RKE 1.5.6]()
 - [Cisco ACI and Rancher Integration with RKE 1.5.3]()
+- [Cisco ACI and Rancher Integration with RKE 1.4.16]()
 - [Cisco ACI and Rancher Integration with RKE 1.4.13]()
 - [Cisco ACI and Rancher Integration with RKE 1.4.9](https://www.cisco.com/c/en/us/td/docs/dcn/aci/containers/rancher-and-cisco-aci-integration/cisco-aci-and-rancher-integration-with-rke-149.html)
 - [Cisco ACI and Rancher Integration with RKE 1.3.24](https://www.cisco.com/c/en/us/td/docs/dcn/aci/containers/rancher-and-cisco-aci-integration/cisco-aci-and-rancher-integration-with-rke-1324.html)
