@@ -113,7 +113,7 @@
 </table>
 
 <h3>Known Issue with Rancher v2.8.2</h3>
-<p> *We have identified an issue with Rancher v2.8.2 where variables related to ACI CNI 6032 are not being picked up by Rancher UI during cluster configuration updates or initial cluster creation. <p>
+<p> *We have identified an issue with Rancher v2.8.2 where variables related to ACI CNI 6032 are not being picked up by Rancher UI during cluster configuration updates or initial cluster creation. </p>
 
 ## Cisco ACI and Rancher Integration Guides
 
