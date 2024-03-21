@@ -81,7 +81,7 @@
       <td rowspan="6">6.0.3.2</td>
       <td rowspan="3">1.5.3</td>
       <td rowspan="3">RKE-1.5.3</td>
-      <td rowspan="3">2.8.2 (RKE v1.5.3)</td>
+      <td rowspan="3">2.8.2* (RKE v1.5.3)</td>
       <td>1.27.8-rancher2-2</td>
       <td rowspan="6">
         <pre>kube_config:
@@ -111,6 +111,9 @@
     </tr>
 </tbody>
 </table>
+
+<h3>Known Issue with Rancher v2.8.2</h3>
+<p> *We have identified an issue with Rancher v2.8.2 where variables related to ACI CNI 6032 are not being picked up by Rancher UI during cluster configuration updates or initial cluster creation. <p>
 
 ## Cisco ACI and Rancher Integration Guides
 
