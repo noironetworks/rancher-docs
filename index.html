@@ -84,12 +84,12 @@ permalink: /rancher-docs
         <td>1.24.17-rancher1-1</td>
       </tr>
       <tr>
-        <td rowspan="6">6.0.3.2</td>
+        <td rowspan="5">6.0.3.2</td>
         <td rowspan="3">1.5.3</td>
         <td rowspan="3">RKE-1.5.3</td>
         <td rowspan="3">2.8.2* (RKE v1.5.3)</td>
         <td>1.27.8-rancher2-2</td>
-        <td rowspan="6">
+        <td rowspan="5">
           <pre>kube_config:
     opflex_agent_statistics
     add_external_contract_to_default_epg
@@ -107,19 +107,47 @@ permalink: /rancher-docs
         <td>1.25.16-rancher2-2</td>
       </tr>
       <tr>
-        <td rowspan="3">1.4.13</td>
-        <td rowspan="3">RKE-1.4.13</td>
-        <td rowspan="3">2.7.10 (RKE v1.4.13)</td>
+        <td rowspan="2">1.4.13</td>
+        <td rowspan="2">RKE-1.4.13</td>
+        <td rowspan="2">2.7.10 (RKE v1.4.13)</td>
         <td>1.26.11-rancher2-2</td>
       </tr>
       <tr>
         <td>1.25.16-rancher2-2</td>
       </tr>
+      <tr>
+      <td rowspan="4">6.0.4.1</td>
+      <td rowspan="2">1.5.6</td>
+      <td rowspan="2">RKE-1.5.6</td>
+      <td rowspan="2">2.8.3** (RKE v1.5.7)</td>
+      <td>1.27.11-rancher1-1</td>
+      <td rowspan="4">
+        <pre>kube_config:
+  taint_not_ready_node
+  disable_hpp_rendering
+  apic_connection_retry_limit
+  drop_log_disable_events
+        </pre>
+      </td>
+    </tr>
+    <tr>
+      <td>1.26.14-rancher1-1</td>
+    </tr>
+    <tr>
+      <td rowspan="2">1.4.16</td>
+      <td rowspan="2">RKE-1.4.16</td>
+      <td rowspan="2">TBD</td>
+      <td>1.26.11-rancher2-2</td>
+    </tr>
+    <tr>
+      <td>1.25.16-rancher2-2</td>
+    </tr>
   </tbody>
   </table>
   
-<h3>Known Issue with Rancher v2.8.2</h3>
-<p> *We have identified an issue with Rancher v2.8.2 where variables related to ACI CNI 6032 are not being picked up by Rancher UI during cluster configuration updates or initial cluster creation.</p>
+<h3>Known Issue with Rancher</h3>
+<p> *Rancher v2.8.2: We have identified an issue with Rancher v2.8.2 where variables related to ACI CNI 6032 are not being picked up by Rancher UI during cluster configuration updates or initial cluster creation.</p>
+<p> **Rancher v2.8.3: We have observed only aci 6041 variables are not picked up rancher during cluster configuration updated or initial cluster creation, However other ACI CNI till 6033 are being picked by Rancher v2.8.3.</p>
 
 <h1>Cisco ACI and Rancher Integration Guides</h1>
 <a href="">Cisco ACI and Rancher Integration with RKE 1.5.3</a>
