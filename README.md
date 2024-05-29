@@ -161,32 +161,30 @@
       <td rowspan="2">RKE-1.4.16</td>
       <td rowspan="2">1.4.16</td>
       <td rowspan="2">2.7.13 ** (RKE v1.4.18)</td>
-      <td>1.26.11-rancher2-2</td>
+      <td>1.27.11-rancher1-1</td>
     </tr>
     <tr>
-      <td>1.25.16-rancher2-2</td>
+      <td>1.26.14-rancher1-1</td>
     </tr>
 </tbody>
 </table>
 
-<h3>Version and Feature mapping between RKE, Rancher Server and ACI-CNI releases</h3>
-<p>This table provides comprehensive information on the following 
-aspects related to RKE (Rancher Kubernetes Engine), Rancher, and ACI-CNI
- releases:</p>
+This table provides information on the following aspects related to RKE (Rancher Kubernetes Engine), Rancher, and ACI-CNI releases:
 
 * ACI-CNI releases.
 
 * Specific versions of RKE that first integrated each ACI-CNI release, along with the corresponding Kubernetes versions.
 
-* All Kubernetes versions from those listed until the next listed corresponding minor versions will use the same ACI-CNI. For example, 1.25.12-rancher1-1 will use ACI-CNI 5.2.7.1.
+    > Note: All Kubernetes versions from those listed until the next listed corresponding minor versions will use the same ACI-CNI. For example, 1.25.12-rancher1-1 will use ACI-CNI 5.2.7.1..
 
 * Initial Rancher Server version that includes an RKE version with these integrations.
 
 * Newly introduced parameters in ACI-CNI incorporated into RKE.
 
-<h3>Known Issue with Rancher</h3>
-<p> *Rancher v2.8.2: We have identified an instability issue with Rancher v2.8.2 where variables related to ACI CNI 6032 are not being picked up by Rancher UI during cluster configuration updates or initial cluster creation.</p>
-<p>** The v2.7.13 build is only available for Rancher Prime customers, through the Rancher Prime registry. </p>
+### Known Issue with Rancher
+\* Rancher v2.8.2: We have identified an instability issue with Rancher v2.8.2 where variables related to ACI CNI 6032 are not being picked up by Rancher UI during cluster configuration updates or initial cluster creation.
+
+** The v2.7.13 build is only available for Rancher Prime customers, through the Rancher Prime registry.
 
 ## Cisco ACI and Rancher Integration Guides
 
