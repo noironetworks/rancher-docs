@@ -188,7 +188,7 @@ This table provides information on the following aspects related to RKE (Rancher
 
 ## Cisco ACI and Rancher Integration Guides
 
-- [RKE2 cluster with ACI-CNI 6.0.4.1 Installation Guide](docs/rke2-6041.md)
+- [RKE2 cluster with ACI-CNI 6.0.4.2 Installation Guide](docs/rke2-6042.md)
 
 - [Cisco ACI and Rancher Integration with RKE 1.5.6]()
 - [Cisco ACI and Rancher Integration with RKE 1.5.3]()
