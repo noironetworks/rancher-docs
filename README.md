@@ -87,7 +87,7 @@
         <pre>kube_config:
   opflex_agent_statistics
   add_external_contract_to_default_epg
-  enable_opflex_agent_reconnect
+  enable_opflex_agent_reconnect**
   opflex_openssl_compat
   node_snat_redirect_exclude
   toleration_seconds
@@ -160,7 +160,7 @@
     <tr>
       <td rowspan="2">RKE-1.4.16</td>
       <td rowspan="2">1.4.16</td>
-      <td rowspan="2">2.7.13 ** (RKE v1.4.18)</td>
+      <td rowspan="2">2.7.13 (RKE v1.4.18)</td>
       <td>1.27.11-rancher1-1</td>
     </tr>
     <tr>
@@ -181,10 +181,27 @@ This table provides information on the following aspects related to RKE (Rancher
 
 * Newly introduced parameters in ACI-CNI incorporated into RKE.
 
-### Known Issue with Rancher
+### Known Issues
 \* Rancher v2.8.2: We have identified an instability issue with Rancher v2.8.2 where variables related to ACI CNI 6032 are not being picked up by Rancher UI during cluster configuration updates or initial cluster creation.
 
-** The v2.7.13 build is only available for Rancher Prime customers, through the Rancher Prime registry.
+** Issue with `enable_opflex_agent_reconnect` flag: In versions from 6.0.3.2, after enabling the flag, the `"enable-opflex-agent-reconnect": true` field needs to the added manually to the controller-config for the feature to work as expected.
+```bash
+# edit config map to add the field under controller-config
+kubectl edit cm -n aci-containers-system aci-containers-config
+# restart controller pod for it to take effect
+kubectl delete po -n aci-containers-system aci-containers-controller
+```
+after edit, the controller-config would look like this:
+```yaml
+controller-config:
+{
+    "log-level": "debug",
+    "enable-opflex-agent-reconnect": true, # Added field
+    "apic-hosts": ["10.30.120.180"],
+    ...
+}
+```
+
 
 ## Cisco ACI and Rancher Integration Guides
 
