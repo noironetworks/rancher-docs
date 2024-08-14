@@ -194,7 +194,7 @@
     <tr>
       <td rowspan="2">RKE-1.5.11</td>
       <td rowspan="2">1.5.11</td>
-      <td rowspan="2">2.7.15 (RKE v1.5.11)</td>
+      <td rowspan="2">2.8.6 (RKE v1.5.11)</td>
       <td>1.28.11-rancher1-1</td>
     </tr>
     <tr>
