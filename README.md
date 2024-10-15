@@ -150,7 +150,8 @@
   taint_not_ready_node
   disable_hpp_rendering
   apic_connection_retry_limit
-  drop_log_disable_events
+drop_log_config:
+  disable_events
         </pre>
       </td>
     </tr>
@@ -170,7 +171,7 @@
       <td rowspan="7">6.0.4.2</td>
       <td rowspan="4">RKE-1.6.0</td>
       <td rowspan="4">1.6.0</td>
-      <td rowspan="4">2.9.0 (RKE v1.6.0)</td>
+      <td rowspan="4">2.9.1 (RKE v1.6.1)</td>
       <td>1.30.2-rancher1-1</td>
       <td rowspan="7">
         <pre>kube_config:
