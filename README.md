@@ -207,6 +207,30 @@ drop_log_config:
       <td>2.7.15 (RKE v1.4.20)</td>
       <td>1.27.15-rancher1-1</td>
     </tr>
+    <tr>
+      <td rowspan="4">6.0.4.3</td>
+      <td rowspan="3">RKE-1.6.2</td>
+      <td rowspan="3">1.6.2</td>
+      <td rowspan="3">2.9.2 (RKE v1.6.2)</td>
+      <td>1.30.4-rancher1-1</td>
+      <td rowspan="7">
+        <pre>kube_config:
+  unknown_mac_unicast_action
+        </pre>
+      </td>
+    </tr>
+    <tr>
+      <td>1.29.8-rancher1-1</td>
+    </tr>
+    <tr>
+      <td>1.28.13-rancher1-1</td>
+    </tr>
+    <tr>
+      <td rowspan="1">RKE-1.5.13</td>
+      <td rowspan="1">1.5.13</td>
+      <td rowspan="1">2.8.8 (RKE v1.5.13)</td>
+      <td>1.28.13-rancher1-1</td>
+    </tr>
 </tbody>
 </table>
 
@@ -249,7 +273,9 @@ controller-config:
 - [RKE2 cluster with ACI-CNI 6.1.1.1 Installation Guide](docs/rke2-install.md)
 - [RKE2 cluster with ACI-CNI 6.0.4.3 Installation Guide](docs/rke2-install.md)
 
+- [Cisco ACI and Rancher Integration with RKE 1.6.2]()
 - [Cisco ACI and Rancher Integration with RKE 1.6.0]()
+- [Cisco ACI and Rancher Integration with RKE 1.5.13]()
 - [Cisco ACI and Rancher Integration with RKE 1.5.11]()
 - [Cisco ACI and Rancher Integration with RKE 1.5.6](https://www.cisco.com/c/en/us/td/docs/dcn/aci/containers/rancher-and-cisco-aci-integration/cisco-aci-and-rancher-integration-rke-156.html)
 - [Cisco ACI and Rancher Integration with RKE 1.5.3](https://www.cisco.com/c/en/us/td/docs/dcn/aci/containers/rancher-and-cisco-aci-integration/cisco-aci-and-rancher-integration-rke-153.html)
