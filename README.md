@@ -213,7 +213,7 @@ drop_log_config:
       <td rowspan="3">1.6.2</td>
       <td rowspan="3">2.9.2 (RKE v1.6.2)</td>
       <td>1.30.4-rancher1-1</td>
-      <td rowspan="7">
+      <td rowspan="4">
         <pre>kube_config:
   unknown_mac_unicast_action
         </pre>
@@ -230,6 +230,31 @@ drop_log_config:
       <td rowspan="1">1.5.13</td>
       <td rowspan="1">2.8.8 (RKE v1.5.13)</td>
       <td>1.28.13-rancher1-1</td>
+    </tr>
+    <tr>
+      <td rowspan="4">6.1.1.1</td>
+      <td rowspan="3">RKE-1.6.3</td>
+      <td rowspan="3">1.6.3</td>
+      <td rowspan="3">2.9.3 (RKE v1.6.3)</td>
+      <td>1.30.5-rancher1-1</td>
+      <td rowspan="7">
+        <pre>kube_config:
+  enable_hpp_direct
+  opflex_agent_reset_wait_delay
+        </pre>
+      </td>
+    </tr>
+    <tr>
+      <td>1.29.9-rancher1-1</td>
+    </tr>
+    <tr>
+      <td>1.28.14-rancher1-1</td>
+    </tr>
+    <tr>
+      <td rowspan="1">RKE-1.5.14</td>
+      <td rowspan="1">1.5.14</td>
+      <td rowspan="1">2.8.9 (RKE v1.5.14)</td>
+      <td>1.28.14-rancher1-1</td>
     </tr>
 </tbody>
 </table>
