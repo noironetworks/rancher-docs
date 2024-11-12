@@ -271,10 +271,14 @@ This table provides information on the following aspects related to RKE (Rancher
 
 * Newly introduced parameters in ACI-CNI incorporated into RKE.
 
+---
+
 ### Known Issues
 \* Rancher v2.8.2: We have identified an instability issue with Rancher v2.8.2 where variables related to ACI CNI 6032 are not being picked up by Rancher UI during cluster configuration updates or initial cluster creation.
 
-** Issue with `enable_opflex_agent_reconnect` flag: In versions from 6.0.3.2, after enabling the flag, the `"enable-opflex-agent-reconnect": true` field needs to the added manually to the controller-config for the feature to work as expected.
+**Resolved version:** Rancher `v2.8.4`
+
+** Issue with `enable_opflex_agent_reconnect` flag: In versions from 6.0.3.2 till 6.0.4.2, after enabling the flag, the `"enable-opflex-agent-reconnect": true` field needs to the added manually to the controller-config for the feature to work as expected.
 ```bash
 # edit config map to add the field under controller-config
 kubectl edit cm -n aci-containers-system aci-containers-config
@@ -291,6 +295,8 @@ controller-config:
     ...
 }
 ```
+
+**Resolved version:** ACI-CNI `v6.0.4.3`
 
 
 ## Cisco ACI and Rancher Integration Guides
