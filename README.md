@@ -295,8 +295,8 @@ controller-config:
 
 ## Cisco ACI and Rancher Integration Guides
 
-- [RKE2 cluster with ACI-CNI 6.1.1.1 Installation Guide](docs/rke2-install.md)
-- [RKE2 cluster with ACI-CNI 6.0.4.3 Installation Guide](docs/rke2-install.md)
+- [RKE2 cluster with ACI-CNI 6.1.1.2 Installation Guide](docs/rke2-install.md)
+- [RKE2 cluster with ACI-CNI 6.0.4.4 Installation Guide](docs/rke2-install.md)
 
 - [Cisco ACI and Rancher Integration with RKE 1.6.2]()
 - [Cisco ACI and Rancher Integration with RKE 1.6.0]()
