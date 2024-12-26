@@ -304,8 +304,10 @@ controller-config:
 - [RKE2 cluster with ACI-CNI 6.1.1.1 Installation Guide](docs/rke2-install.md)
 - [RKE2 cluster with ACI-CNI 6.0.4.3 Installation Guide](docs/rke2-install.md)
 
+- [Cisco ACI and Rancher Integration with RKE 1.6.3]()
 - [Cisco ACI and Rancher Integration with RKE 1.6.2]()
 - [Cisco ACI and Rancher Integration with RKE 1.6.0]()
+- [Cisco ACI and Rancher Integration with RKE 1.5.14]()
 - [Cisco ACI and Rancher Integration with RKE 1.5.13]()
 - [Cisco ACI and Rancher Integration with RKE 1.5.11]()
 - [Cisco ACI and Rancher Integration with RKE 1.5.6](https://www.cisco.com/c/en/us/td/docs/dcn/aci/containers/rancher-and-cisco-aci-integration/cisco-aci-and-rancher-integration-rke-156.html)
