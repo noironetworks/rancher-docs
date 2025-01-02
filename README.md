@@ -130,7 +130,7 @@
     <tr>
       <td rowspan="3">RKE-1.4.16</td>
       <td rowspan="3">1.4.16</td>
-      <td rowspan="3">2.7.13 ** (RKE v1.4.18)</td>
+      <td rowspan="3">2.7.13 (RKE v1.4.18)</td>
       <td>1.27.10-rancher1-2</td>
     </tr>
     <tr>
