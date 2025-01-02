@@ -237,7 +237,7 @@ drop_log_config:
       <td rowspan="3">1.6.3</td>
       <td rowspan="3">2.9.3 (RKE v1.6.3)</td>
       <td>1.30.5-rancher1-1</td>
-      <td rowspan="7">
+      <td rowspan="4">
         <pre>kube_config:
   enable_hpp_direct
   opflex_agent_reset_wait_delay
@@ -255,6 +255,34 @@ drop_log_config:
       <td rowspan="1">1.5.14</td>
       <td rowspan="1">2.8.9 (RKE v1.5.14)</td>
       <td>1.28.14-rancher1-1</td>
+    </tr>
+    <tr>
+      <td rowspan="5">6.0.4.4</td>
+      <td rowspan="3">RKE-1.7.1</td>
+      <td rowspan="3">1.7.1</td>
+      <td rowspan="3">2.10.1 (RKE v1.7.1)</td>
+      <td>1.29.11-rancher1-1</td>
+      <td rowspan="5">
+        <pre>
+drop_log_config:
+  opflex_redirect_drop_logs
+        </pre>
+      </td>
+    </tr>
+    <tr>
+    <td> 1.30.7-rancher1-1</td>
+    </tr>
+    <tr>
+    <td> 1.31.3-rancher1-1</td>
+    </tr>
+    <tr>
+      <td rowspan="2">RKE-1.6.5</td>
+      <td rowspan="2">1.6.5</td>
+      <td rowspan="2">2.9.5 (RKE v1.6.5)</td>
+      <td>1.29.11-rancher1-1</td>
+    </tr>
+    <tr>
+      <td>1.30.7-rancher1-1</td>
     </tr>
 </tbody>
 </table>
