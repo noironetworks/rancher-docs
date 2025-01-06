@@ -257,7 +257,7 @@ drop_log_config:
       <td>1.28.14-rancher1-1</td>
     </tr>
     <tr>
-      <td rowspan="5">6.0.4.4</td>
+      <td rowspan="5">6.0.4.4^</td>
       <td rowspan="3">RKE-1.7.1</td>
       <td rowspan="3">1.7.1</td>
       <td rowspan="3">2.10.1 (RKE v1.7.1)</td>
@@ -286,6 +286,10 @@ drop_log_config:
     </tr>
 </tbody>
 </table>
+
+> **&#9432;** ___NOTE:___
+>
+>  ^ Downgrading ACI-CNI from version 6.1.1.1 to 6.0.4.4 is not supported. Therefore, if you are currently using ACI-CNI 6.1.1.1, avoid upgrading to RKE Kubernetes versions associated with 6.0.4.4.
 
 This table provides information on the following aspects related to RKE (Rancher Kubernetes Engine), Rancher, and ACI-CNI releases:
 
