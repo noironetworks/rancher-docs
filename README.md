@@ -284,6 +284,34 @@ drop_log_config:
     <tr>
       <td>1.30.7-rancher1-1</td>
     </tr>
+    <tr>
+      <td rowspan="5">6.1.1.2</td>
+      <td rowspan="3">RKE-1.7.2</td>
+      <td rowspan="3">1.7.2</td>
+      <td rowspan="3">2.10.2 (RKE v1.7.2)</td>
+      <td>1.29.12-rancher1-1</td>
+      <td rowspan="5">
+        <pre>
+kube_config:
+  proactive_conf
+        </pre>
+      </td>
+    </tr>
+    <tr>
+    <td> 1.30.8-rancher1-1</td>
+    </tr>
+    <tr>
+    <td> 1.31.4-rancher1-1</td>
+    </tr>
+    <tr>
+      <td rowspan="2">RKE-1.6.6</td>
+      <td rowspan="2">1.6.6</td>
+      <td rowspan="2">2.9.6 (RKE v1.6.6)</td>
+      <td>1.29.12-rancher1-1</td>
+    </tr>
+    <tr>
+      <td>1.30.8-rancher1-1</td>
+    </tr>
 </tbody>
 </table>
 
