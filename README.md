@@ -281,6 +281,7 @@ drop_log_config:
       <td>2.6.14 (RKE v1.3.24)</td>
       <td>1.24.17-rancher1-1</td>
     </tr>
+    <tr>
       <td rowspan="5">5.2.7.1</td>
       <td rowspan="3">RKE-1.4.6</td>
       <td rowspan="3">1.4.6</td>
