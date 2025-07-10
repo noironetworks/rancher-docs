@@ -10,7 +10,44 @@
     </tr>
   </thead>
   <tbody>
-  <tr>
+    <tr>
+      <td rowspan="6">6.1.1.4</td>
+      <td rowspan="3">RKE-1.8.3</td>
+      <td rowspan="3">1.8.3</td>
+      <td rowspan="3">2.11.2 (RKE v1.8.3)</td>
+      <td>1.32.4-rancher1-1</td>
+      <td rowspan="6">
+        <pre>
+kube_config:
+  epg_resolve_prioritize
+  force_ep_undeclares
+  enable_apic_request_retry_delay
+  apic_request_retry_delay
+        </pre>
+      </td>
+    </tr>
+    <tr>
+    <td> 1.31.8-rancher1-1 </td>
+    </tr>
+    <tr>
+    <td> 1.30.12-rancher1-1 </td>
+    </tr>
+    <tr>
+      <td rowspan="2">RKE-1.7.7</td>
+      <td rowspan="2">1.7.7</td>
+      <td rowspan="2">2.10.6 (RKE v1.7.7)</td>
+      <td>1.31.8-rancher1-1</td>
+    </tr>
+    <tr>
+    <td> 1.30.12-rancher1-1 </td>
+    </tr>
+    <tr>
+      <td>RKE-1.6.10</td>
+      <td>1.6.10</td>
+      <td>2.9.10 (RKE v1.6.10)</td>
+      <td>1.30.12-rancher1-1</td>
+    </tr>
+    <tr>
       <td rowspan="5">6.1.1.2</td>
       <td rowspan="3">RKE-1.7.2</td>
       <td rowspan="3">1.7.2</td>
