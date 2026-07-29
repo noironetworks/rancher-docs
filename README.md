@@ -1,3 +1,14 @@
+## Cisco ACI and Rancher Integration Compatibility
+
+## RKE2 Compatibility Matrix (Active)
+
+| ACI-CNI version | acc-provision flavor | Rancher version tested | Kubernetes versions tested | Installation guide |
+| --- | --- | --- | --- | --- |
+| 6.1.1.7 | RKE2-kubernetes-1.35 | 2.14.3 | v1.35.5+rke2r1 | [RKE2 cluster with ACI-CNI 6.1.1.7 Installation Guide](docs/rke2-install.md) |
+| 6.1.1.6 | RKE2-kubernetes-1.34 | 2.13.1 | v1.34.5+rke2r1 | [RKE2 cluster with ACI-CNI 6.1.1.6 Installation Guide](docs/rke2-install.md) |
+
+## RKE1 Compatibility (Archived)
+
 <table>
   <thead>
     <tr>
@@ -368,9 +379,11 @@ This table provides information on the following aspects related to RKE (Rancher
 
 * Newly introduced parameters in ACI-CNI incorporated into RKE.
 
+No new RKE1 versions are tested or added to this archive.
+
 ---
 
-### Known Issues
+### Known Issues (Historical RKE1 Track)
 \* Rancher v2.8.2: We have identified an instability issue with Rancher v2.8.2 where variables related to ACI CNI 6032 are not being picked up by Rancher UI during cluster configuration updates or initial cluster creation.
 
 **Resolved version:** Rancher `v2.8.4`
@@ -398,19 +411,23 @@ controller-config:
 
 ## Cisco ACI and Rancher Integration Guides
 
+### RKE2 Guides (Active)
+
 - [RKE2 cluster with ACI-CNI 6.1.1.7 Installation Guide](docs/rke2-install.md)
 - [RKE2 cluster with ACI-CNI 6.1.1.4 Installation Guide](docs/rke2-install.md)
 - [RKE2 cluster with ACI-CNI 6.0.4.4 Installation Guide](docs/rke2-install.md)
 
-- [Cisco ACI and Rancher Integration with RKE 1.6.3]()
-- [Cisco ACI and Rancher Integration with RKE 1.6.2]()
-- [Cisco ACI and Rancher Integration with RKE 1.6.0]()
-- [Cisco ACI and Rancher Integration with RKE 1.5.14]()
-- [Cisco ACI and Rancher Integration with RKE 1.5.13]()
-- [Cisco ACI and Rancher Integration with RKE 1.5.11]()
+### RKE1 Guides (Legacy Archive, Not Maintained)
+
+- Cisco ACI and Rancher Integration with RKE 1.6.3
+- Cisco ACI and Rancher Integration with RKE 1.6.2
+- Cisco ACI and Rancher Integration with RKE 1.6.0
+- Cisco ACI and Rancher Integration with RKE 1.5.14
+- Cisco ACI and Rancher Integration with RKE 1.5.13
+- Cisco ACI and Rancher Integration with RKE 1.5.11
 - [Cisco ACI and Rancher Integration with RKE 1.5.6](https://www.cisco.com/c/en/us/td/docs/dcn/aci/containers/rancher-and-cisco-aci-integration/cisco-aci-and-rancher-integration-rke-156.html)
 - [Cisco ACI and Rancher Integration with RKE 1.5.3](https://www.cisco.com/c/en/us/td/docs/dcn/aci/containers/rancher-and-cisco-aci-integration/cisco-aci-and-rancher-integration-rke-153.html)
-- [Cisco ACI and Rancher Integration with RKE 1.4.20]()
+- Cisco ACI and Rancher Integration with RKE 1.4.20
 - [Cisco ACI and Rancher Integration with RKE 1.4.16](https://www.cisco.com/c/en/us/td/docs/dcn/aci/containers/rancher-and-cisco-aci-integration/cisco-aci-and-rancher-integration-rke-1416.html)
 - [Cisco ACI and Rancher Integration with RKE 1.4.13](https://www.cisco.com/c/en/us/td/docs/dcn/aci/containers/rancher-and-cisco-aci-integration/cisco-aci-and-rancher-integration-rke-1413.html)
 - [Cisco ACI and Rancher Integration with RKE 1.4.9](https://www.cisco.com/c/en/us/td/docs/dcn/aci/containers/rancher-and-cisco-aci-integration/cisco-aci-and-rancher-integration-with-rke-149.html)
